@@ -22,7 +22,7 @@ Used this site to reference a lot of what I built: http://www.launchacademy.com/
 * Change README.rdoc, commit and push the change
   * Replace default info with info relevant to your app
 
-##Things to do ongoing:##
+## Things to do ongoing:
 
 
 * RSpec: rake db:test:prepare
