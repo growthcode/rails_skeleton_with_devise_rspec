@@ -1,28 +1,13 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Used this site to reference a lot of what I built: http://www.launchacademy.com/codecabulary/learn-rails/how-to-create-a-rails-app
 
-Things you may want to cover:
+Things left to do on a new app:
+* create models / scaffold / migrations
+* rake db:migrate ; rake db:rollback ; rake db:migrate
+* * Use this command to double check that your tables / migrations are correctly configured. This is a best practices sort of deal. If you're using zsh, I'd highly recommend making an alias for this command!
 
-* Ruby version
+Things to do ongoing:
+* RSpec: rake db:test:prepare
+* * This command generates the test environment that Rspec uses. You’ll need to redo this command if you make any new migrations
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
