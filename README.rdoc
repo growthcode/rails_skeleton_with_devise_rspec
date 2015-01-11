@@ -9,6 +9,12 @@ Used this site to reference a lot of what I built: http://www.launchacademy.com/
 Push the local repository up to Github (the remote repository)
 * * git push origin master
 
+* Set up Devise (or remove it):
+* * http://guides.railsgirls.com/devise/
+* * https://github.com/plataformatec/devise
+* * http://stackoverflow.com/questions/3692905/adding-additional-field-and-validation-to-devise-view-model-in-rails-app
+
+
 * create models / scaffold / migrations
 * rake db:migrate ; rake db:rollback ; rake db:migrate
 * * Use this command to double check that your tables / migrations are correctly configured. This is a best practices sort of deal. If you're using zsh, I'd highly recommend making an alias for this command!
@@ -17,6 +23,8 @@ Push the local repository up to Github (the remote repository)
 * * Replace default info with info relevant to your app
 
 ##Things to do ongoing:##
+
+
 * RSpec: rake db:test:prepare
 * * This command generates the test environment that Rspec uses. You’ll need to redo this command if you make any new migrations
 
