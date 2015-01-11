@@ -2,7 +2,7 @@
 
 Used this site to reference a lot of what I built: http://www.launchacademy.com/codecabulary/learn-rails/how-to-create-a-rails-app
 
-## Things left to do on a new app:
+<h2> Things left to do on a new app: </h2>
 * Tell git to add Github as the origin for the 'master' branch
   * git remote add origin "git@github.com:<username>/<new_app>.git"
 
@@ -22,13 +22,13 @@ Used this site to reference a lot of what I built: http://www.launchacademy.com/
 * Change README.rdoc, commit and push the change
   * Replace default info with info relevant to your app
 
-## Things to do ongoing:
+<h2> Things to do ongoing: </h2>
 
 
 * RSpec: rake db:test:prepare
   * This command generates the test environment that Rspec uses. You’ll need to redo this command if you make any new migrations
 
-## Deploy to Heroku
+<h2> Deploy to Heroku </h2>
 * Create a new app with subdomain at Heroku
   * $ heroku create --stack cedar
 * Push the app to Heroku
