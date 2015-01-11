@@ -2,12 +2,26 @@
 
 Used this site to reference a lot of what I built: http://www.launchacademy.com/codecabulary/learn-rails/how-to-create-a-rails-app
 
-Things left to do on a new app:
+##Things left to do on a new app:##
+* Tell git to add Github as the origin for the 'master' branch
+* * git remote add origin "git@github.com:<username>/<new_app>.git"
+
+Push the local repository up to Github (the remote repository)
+* * git push origin master
+
 * create models / scaffold / migrations
 * rake db:migrate ; rake db:rollback ; rake db:migrate
 * * Use this command to double check that your tables / migrations are correctly configured. This is a best practices sort of deal. If you're using zsh, I'd highly recommend making an alias for this command!
 
-Things to do ongoing:
+* Change README.rdoc, commit and push the change
+* * Replace default info with info relevant to your app
+
+##Things to do ongoing:##
 * RSpec: rake db:test:prepare
 * * This command generates the test environment that Rspec uses. You’ll need to redo this command if you make any new migrations
 
+##Deploy to Heroku##
+* Create a new app with subdomain at Heroku
+* * $ heroku create --stack cedar
+* Push the app to Heroku
+* * $ git push heroku master
