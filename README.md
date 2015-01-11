@@ -6,6 +6,28 @@ Used this site to reference a lot of what I built: http://www.launchacademy.com/
 * Tell git to add Github as the origin for the 'master' branch
   * git remote add origin "git@github.com:<username>/<new_app>.git"
 
+* Update files to new file name:
+  * views/layout/application.html.erb
+    * line 4: title tag changed
+  * config/application.rb
+    * line 16: module to camelCase the name
+  * config/database.yml
+    * line 26: development, 'database:'
+      * name_of_app
+    * line 32: username:
+      * name_of_app
+    * line 60: database: 
+      * name_of_app
+    * line 83: database 
+      * name_of_app
+    * line 84: username
+      * name_of_app
+    * line 85: password
+      * <%= ENV['NAME_OF_APP_IN_CAPS'] %>
+  * config/initialize/session_store.rb
+    * line 3: Rails.application.config.session_store :cookie_store, key: 
+      * '_the_name_of_app_with_underscore_starting_it'
+
 * Push the local repository up to Github (the remote repository)
   * git push origin master
 
